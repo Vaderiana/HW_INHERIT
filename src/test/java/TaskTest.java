@@ -1,12 +1,10 @@
-package Task;
+//package Task;
 
 import org.example.Epic;
 import org.example.Meeting;
 import org.example.SimpleTask;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class TaskTest {
 
