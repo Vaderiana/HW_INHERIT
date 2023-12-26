@@ -31,8 +31,8 @@ class TaskTest {
     }
 
     @Test
-    public void testEpicMatches(){
-        String[] subtasks = { "Молоко", "Яйца", "Хлеб" };
+    public void testEpicMatches() {
+        String[] subtasks = {"Молоко", "Яйца", "Хлеб"};
         Epic epic = new Epic(55, subtasks);
 
         boolean actual = epic.matches("Хлеб");
