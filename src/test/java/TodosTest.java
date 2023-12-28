@@ -74,8 +74,8 @@ class TodosTest {
         todos.add(epic);
         todos.add(meeting);
 
-        Task[] expected = {};
-        Task[] actual = todos.search("вторник");
+        Task[] expected = {simpleTask};
+        Task[] actual = todos.search("Купить Молоко");
         Assertions.assertArrayEquals(expected, actual);
     }
 
